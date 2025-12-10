@@ -61,9 +61,7 @@ Here are some sample buttons using Rippleeffect.js:
 <div class="blackbtn ripple-white">Docs</div>
 <div class="bluebtn ripple-black">Play</div>
 <div class="orangebtn ripple-white">Login</div>
-<div class="purplebtn ripple-black">Add To Cart</div>
-<div class="tealbtn ripple-white">SignUp</div>
-<div class="pinkbtn ripple-black">Submit</div>
+
 ```
 
 All of these will have smooth ripple animations when clicked.

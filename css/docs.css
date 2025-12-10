@@ -1,0 +1,119 @@
+@font-face {
+    font-family: inter;
+    src: url(../assets/inter.ttf);
+}
+* {
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f6f8;
+}
+
+
+div.page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+
+div.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 50px 40px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+div.card:hover {
+    transform: translateY(-4px);
+}
+
+
+div.title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+}
+div.section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+div.subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+div.text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+div.greenbtn, div.blackbtn, div.redbtn, div.bluebtn, div.orangebtn, div.purplebtn, div.tealbtn, div.pinkbtn {
+    border-radius: 4px;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    width: fit-content;
+    transition: all 0.2s ease;
+}
+div.greenbtn { background-color: #76B900; color: black; }
+div.greenbtn:hover { background-color: #70b100d2; }
+
+div.blackbtn { background-color: #141212; color: white; }
+div.blackbtn:hover { background-color: #141212; }
+
+div.redbtn { background-color: #E63946; color: white; }
+div.redbtn:hover { background-color: #d4353b; }
+
+div.bluebtn { background-color: #1D4ED8; color: white; }
+div.bluebtn:hover { background-color: #1a3fbf; }
+
+div.orangebtn { background-color: #F97316; color: white; }
+div.orangebtn:hover { background-color: #e56d14; }
+
+div.purplebtn { background-color: #9333EA; color: white; }
+div.purplebtn:hover { background-color: #7c29d4; }
+
+div.tealbtn { background-color: #0D9488; color: white; }
+div.tealbtn:hover { background-color: #0b7a74; }
+
+div.pinkbtn { background-color: #EC4899; color: white; }
+div.pinkbtn:hover { background-color: #db3f87; }
+
+.viptext {
+    background-color: #57cdff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+
+div.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+div.examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}

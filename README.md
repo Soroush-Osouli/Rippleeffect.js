@@ -93,4 +93,4 @@ Check out the interactive documentation page for live examples and instructions:
 
 ---
 
-**Made with 💪 by [ُSoroush]**
+**Made with 💪 by [Soroush]**
